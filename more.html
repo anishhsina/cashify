@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>More - Cashify</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Header */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .logo { font-size: 1.5rem; font-weight: bold; color: #30B57D; margin-right: 1rem; }
+    .search-bar {
+      flex: 1;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .header-controls select,
+    .header-controls button {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      background: #f9f9f9;
+    }
+    .header-controls button { background: #30B57D; color: #fff; border: none; }
+
+    /* Navigation */
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0.5rem 1rem;
+      background: #fff;
+    }
+    .nav a { font-size: 0.95rem; padding: 0.5rem; border-radius: 4px; }
+    .nav a:hover { background: #30B57D; color: #fff; }
+
+    /* More Section */
+    .more {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .more h2 { margin-bottom: 1rem; }
+    .more-content {
+      background: #f5f5f5;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+    .more-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .more-content p {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+    .more-content ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .more-content ul li {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .more-content a {
+      color: #30B57D;
+      font-weight: bold;
+    }
+    .more-content a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .footer {
+      background: #2c2c2c;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .footer-links a { color: #30B57D; font-size: 0.9rem; }
+    .footer p { font-size: 0.85rem; }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      .header { justify-content: space-between; }
+      .search-bar { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">ANISHIFY</div>
+    <input type="text" class="search-bar" placeholder="Search for mobiles, accessories & more">
+    <div class="header-controls">
+      <select>
+        <option>Saran</option>
+        <option>Delhi</option>
+      </select>
+      <button>Login</button>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">All</a>
+    <a href="sell-phone.html">Sell Phone</a>
+    <a href="sell-gadgets.html">Sell Gadgets</a>
+    <a href="buy-refurbished.html">Buy Refurbished Devices</a>
+    <a href="find-new-gadget.html">Find New Gadget</a>
+    <a href="buy-laptop.html">Buy Laptop</a>
+    <a href="cashify-store.html">Cashify Store</a>
+    <a href="more.html">More</a>
+  </nav>
+
+  <section class="more">
+    <h2>More About Cashify</h2>
+    <div class="more-content">
+      <h3>Our Mission</h3>
+      <p>At Cashify, we aim to simplify the process of buying and selling electronics, offering a seamless experience with fair pricing and trusted services.</p>
+      
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>Instant quotes for selling your devices</li>
+        <li>Quality-assured refurbished products</li>
+        <li>Wide range of new and refurbished gadgets</li>
+        <li>Convenient doorstep pickup and delivery</li>
+        <li>Secure and transparent transactions</li>
+      </ul>
+      
+      <h3>Resources</h3>
+      <p>Explore our blog for tips on maintaining your devices, choosing the right gadget, and staying updated with the latest tech trends. <a href="#">Visit our Blog</a></p>
+      
+      <h3>Contact Us</h3>
+      <p>Have questions? Reach out to our support team via <a href="#">Contact</a> or check our <a href="#">FAQ</a> for quick answers.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="./footer/about-us.html">About Us</a>
+      <a href="./footer/contact.html">Contact</a>
+      <a href="./footer/privacy-policy.html">Privacy Policy</a>
+      <a href="./footer/terms-of-service.html">Terms of Service</a>
+    </div>
+    <p>© 2025 Cashify. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
